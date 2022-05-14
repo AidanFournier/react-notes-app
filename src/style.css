@@ -44,7 +44,7 @@ button:focus {
 
 .new-note {
   cursor: pointer;
-  background-color: #4A4E74;
+  background-color: rgb(102, 164, 246);
   border: none;
   color: white;
   border-radius: 3px;
@@ -54,7 +54,7 @@ button:focus {
 
 .first-note {
   cursor: pointer;
-  background-color: #4A4E74;
+  background-color: rgb(102, 164, 246);
   border: none;
   color: white;
   border-radius: 3px;
@@ -102,7 +102,7 @@ button:focus {
 }
 
 .selected-note {
-  background-color: #4A4E74;
+  background-color: rgb(102, 164, 246);
 }
 
 .selected-note .text-snippet {
@@ -196,3 +196,8 @@ button:focus {
   top: -7px;
   left: -2px
 } 
+
+.mde-header .mde-tabs button.selected {
+  border: 1px solid rgb(102, 164, 246);
+  border-radius: 5px;
+}
