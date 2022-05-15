@@ -32,14 +32,20 @@ button:focus {
   /* display: flex; */
 }
 
+.sidebar--logo {
+  height: 50px;
+  margin-left: 5%;
+}
+
 .sidebar--header {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  font-family: 'Indie Flower';
 }
 
 .sidebar--header > h3 {
-  font-size: 1.75rem;
+  font-size: 54px;
+  margin: 10px 5px 10px 5px;
 }
 
 .new-note {
@@ -50,6 +56,8 @@ button:focus {
   border-radius: 3px;
   height: 30px;
   width: 30px;
+  margin-left: auto;
+  margin-right: 10%;
 }
 
 .first-note {
@@ -166,7 +174,8 @@ button:focus {
       inset 2px 0 0;
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
-  margin-top: 4px
+  margin-top: 4px;
+  margin-right: 5px;
 }
 
 .gg-trash::after,
@@ -196,6 +205,10 @@ button:focus {
   top: -7px;
   left: -2px
 } 
+
+.mde-header {
+  background: white;
+}
 
 .mde-header .mde-tabs button.selected {
   border: 1px solid rgb(102, 164, 246);

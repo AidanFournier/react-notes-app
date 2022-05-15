@@ -1,10 +1,10 @@
 import React from "react"
+import Pencil from "../images/pencil.png"
 
 export default function Sidebar(props) {
     const noteElements = props.notes.map((note, index) => (
         <div key={note.id}>
             <div
-                
                 className={`title ${
                     note.id === props.currentNote.id ? "selected-note" : ""
                 }`}
@@ -24,6 +24,7 @@ export default function Sidebar(props) {
     return (
         <section className="pane sidebar">
             <div className="sidebar--header">
+                <img src= {Pencil} alt="Pencil" className="sidebar--logo" />
                 <h3>Notes</h3>
                 <button className="new-note" onClick={props.newNote}>+</button>
             </div>
