@@ -1,5 +1,6 @@
 import React from "react"
 import Pencil from "../images/pencil.png"
+import Add from "../images/add.png"
 
 export default function Sidebar(props) {
     const noteElements = props.notes.map((note, index) => (
@@ -26,7 +27,9 @@ export default function Sidebar(props) {
             <div className="sidebar--header">
                 <img src= {Pencil} alt="Pencil" className="sidebar--logo" />
                 <h3>Notes</h3>
-                <button className="new-note" onClick={props.newNote}>+</button>
+                <button className="new-note" onClick={props.newNote}>
+                <img src= {Add} alt="New note" className="sidebar--add" />
+                </button>
             </div>
             {noteElements}
         </section>
