@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Setup
 Install JS packages
 ```
-yarn install
+npm install
 ```
 ### Run a server
 In the project directory, you can run:
