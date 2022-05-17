@@ -1,43 +1,33 @@
-# Notes App
+# ![blue-pencil](https://user-images.githubusercontent.com/78288118/168841982-6cc26912-9760-4b71-886c-b481294532e2.png) Notes App
+
+![Screen Shot 2022-05-17 at 10 59 50 PM](https://user-images.githubusercontent.com/78288118/168842228-b9dff2e6-1c58-4440-a47c-87bf5a098b2c.png)
+![Screen Shot 2022-05-17 at 10 59 13 PM](https://user-images.githubusercontent.com/78288118/168842253-1eb8b405-b0df-4a7d-a422-0806f4e9f286.png)
+
+
+Create notes that persist locally and can be viewed in markdown. This app was inspired by Project #6 of [Bob Ziroll's](https://github.com/bobziroll) <a href="https://scrimba.com/learn/learnreact">Learn React for free</a> course on Scrimba.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Getting Started
 
+### Setup
+Install JS packages
+```
+yarn install
+```
+### Run a server
 In the project directory, you can run:
-
-### `npm start`
-
+```
+npm start
+```
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Learn More
 
